@@ -1,0 +1,6 @@
+zuul:
+  prefix: /api
+  routes:
+    a-bootiful-client:
+      path: /client1/**
+      url: http://localhost:8080
